@@ -1,8 +1,9 @@
 package com.acpgroup.desafio.controllers;
 
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 
-@RestController
+@Controller
 public class EventoController {
+	
 
 }

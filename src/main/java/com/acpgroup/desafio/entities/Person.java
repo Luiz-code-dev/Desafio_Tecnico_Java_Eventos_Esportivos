@@ -22,6 +22,7 @@ public class Person {
 	public String nomeCompleto;
 	public String apelido;
 	
+	
 	public String email;
 	private double senha;
 
