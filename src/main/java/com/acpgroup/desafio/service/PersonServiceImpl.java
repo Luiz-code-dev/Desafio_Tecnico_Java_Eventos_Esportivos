@@ -22,7 +22,7 @@ public class PersonServiceImpl implements PersonService {
 	}
 
 	@Override
-	public List<Person> getAllEventos() {
+	public List<Person> getAllPerson() {
 		List<Person> peopleList = personRepository.findAll();
 		return peopleList;
 	}
@@ -35,7 +35,7 @@ public class PersonServiceImpl implements PersonService {
 	}
 
 	@Override
-	public void updatePersonNovoEvento(int id) {
+	public void updatePersonNovoPerson(int id) {
 	}
 
 	@Override

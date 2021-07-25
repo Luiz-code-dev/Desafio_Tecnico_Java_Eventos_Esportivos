@@ -11,11 +11,11 @@ public interface PersonService {
 
 	void addPerson(Person person);
 
-	List<Person> getAllEventos();
+	List<Person> getAllPerson();
 
 	Person getPersonById(int id);
 
-	void updatePersonNovoEvento(int id);
+	void updatePersonNovoPerson(int id);
 
 	void deletePersonById(int id);
 

@@ -33,7 +33,7 @@ public class EventoServiceImpl implements EventoService {
 	}
 
 	@Override
-	public void updateEventoNovoEvento(int id) {
+	public void updateEvento(int id) {
 		}
 
 	@Override

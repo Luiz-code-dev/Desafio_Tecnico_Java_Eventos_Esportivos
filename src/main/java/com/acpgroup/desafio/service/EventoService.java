@@ -15,7 +15,7 @@ public interface EventoService {
 
 	Evento getPersonById(int id);
 
-	void updateEventoNovoEvento(int id);
+	void updateEvento(int id);
 
 	void deleteEventoById(int id);
 

@@ -53,6 +53,14 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+
+
 		<!-- Configuração JSF -->
 
 		<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-api -->
@@ -75,7 +83,7 @@
 			<artifactId>primefaces-extensions</artifactId>
 			<version>10.0.2</version>
 		</dependency>
-	
+
 		<!-- https://mvnrepository.com/artifact/org.primefaces/primefaces -->
 		<dependency>
 			<groupId>org.primefaces</groupId>

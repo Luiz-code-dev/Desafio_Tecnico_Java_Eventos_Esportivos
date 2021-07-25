@@ -21,8 +21,7 @@ public class PersonController {
 	@Autowired
 	PersonService personService;
 
-	
-	@RequestMapping("/registrar")
+	@RequestMapping(value = "/registrar")
 	public ModelAndView getRegisterPage() {
 		return new ModelAndView("addUser", "person", new Person());
 	}
@@ -38,9 +37,9 @@ public class PersonController {
 		return "redirect:/";
 	}
 
-	@RequestMapping("/ eventos")
+	@RequestMapping(value = "/participantes")
 	public ModelAndView getUsersPage() {
-		return new ModelAndView("eventos", "eventos", personService.getAllEventos());
+		return new ModelAndView("associados", "associados", personService.getAllPerson());
 	}
 
 }

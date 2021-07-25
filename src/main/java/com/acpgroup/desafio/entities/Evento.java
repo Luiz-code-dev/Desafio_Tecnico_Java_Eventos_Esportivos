@@ -1,5 +1,6 @@
 package com.acpgroup.desafio.entities;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -12,7 +13,8 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity
 @Table(name="tb_evento")
-public class Evento {
+public class Evento implements Serializable {
+	private static final long serialVersionUID = 1L;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
