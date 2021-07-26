@@ -1,8 +1,17 @@
 # Desafio_Tecnico_Java_Eventos_Esportivos
 Portal para formação e divulgação de Eventos Esportivos
 
+# Tecnologias
+JAVA 11 <p>
+Spring Boot <p>
+Spring MVC <p>
+Spring JPA <p>
+Maven <p>
+PrimeFaces 10.0.02
+
+
 # Objetivo:
-Desenvolver um sistema CRUD simples em Java 11, PostgreSQL 13, spring boot mvc 2.5.3 e PrimeFaces 10.0.02 para gerar um portal de divulgação de eventos esportivos.
+Desenvolver um sistema CRUD MVC simples para gerar um portal de divulgação de eventos esportivos.
 
 # Detalhes:
 O portal deve gerar as informações:
