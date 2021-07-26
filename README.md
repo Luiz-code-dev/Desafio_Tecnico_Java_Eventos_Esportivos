@@ -2,7 +2,7 @@
 Portal para formação e divulgação de Eventos Esportivos
 
 # Objetivo:
-Desenvolver um sistema CRUD simples em Java 11, PostgreSQL 13, spring boot mvc 2.5.3 e PrimeFaces 10.0.02 para gerar um portal de divulgação de evntos esportivos.
+Desenvolver um sistema CRUD simples em Java 11, PostgreSQL 13, spring boot mvc 2.5.3 e PrimeFaces 10.0.02 para gerar um portal de divulgação de eventos esportivos.
 
 # Detalhes:
 O portal deve gerar as informações:
