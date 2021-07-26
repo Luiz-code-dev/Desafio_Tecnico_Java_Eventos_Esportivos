@@ -7,7 +7,8 @@ Spring Boot <p>
 Spring MVC <p>
 Spring JPA <p>
 Maven <p>
-PrimeFaces 10.0.02
+PrimeFaces 10.0.02 <p>
+IDE Eclipse STS
 
 
 # Objetivo:
