@@ -16,6 +16,7 @@ import com.acpgroup.desafio.entities.Person;
 import com.acpgroup.desafio.service.PersonService;
 
 @Controller
+@RequestMapping("usuario") 
 public class PersonController {
 
 	@Autowired
